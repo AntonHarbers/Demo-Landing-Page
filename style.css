@@ -255,6 +255,24 @@ h3 {
   color: #3882f6;
 }
 
+/* make overflow slider more visiaully appealing */
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3882f6;
+}
+
 /* mobile media query */
 
 @media (max-width: 768px) {
