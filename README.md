@@ -1,10 +1,5 @@
-Oding Landing Page Project
+The Odin Project - Landing Page
 
-    What is this project:
-    A basic landing page to combine html and css into a well looking web experience
+A generic landing page created with html and css for the odin project.
 
-    What have I learned building this project:
-    How to structure an HTML document into many subsections. 
-    How to style different elements using ids and classes.
-    How to interact with flexboxes to create a seamless layout.
-
+[Live Link](https://antonharbers.github.io/foundations-landing-page/)
