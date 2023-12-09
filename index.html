@@ -3,14 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Odin Landing Page</title>
+    <title>Landing Page - The Odin Project</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="./styles/minStyle.css" />
+    <script src="script.js" defer></script>
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
   </head>
   <body>
@@ -96,21 +100,4 @@
     </div>
     <footer>Copyright © The Odin Project 2021</footer>
   </body>
-  <script>
-    // make every letter in the hero container transform up and down on mouse hover
-    const heroLetters = document.querySelectorAll('.letter');
-    heroLetters.forEach((letter, index) => {
-      letter.addEventListener('mouseover', () => {
-        letter.classList.add('hover');
-        // make letters left and right halfhover
-        heroLetters[index - 1]?.classList.add('halfhover');
-        heroLetters[index + 1]?.classList.add('halfhover');
-      });
-      letter.addEventListener('mouseout', () => {
-        letter.classList.remove('hover');
-        heroLetters[index - 1]?.classList.remove('halfhover');
-        heroLetters[index + 1]?.classList.remove('halfhover');
-      });
-    });
-  </script>
 </html>
