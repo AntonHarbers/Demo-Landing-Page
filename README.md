@@ -4,11 +4,13 @@ A generic landing page created with html and css for the odin project.
 
 [Live Link](https://antonharbers.github.io/Demo-Landing-Page/)
 
+![Screenshot of App](/images/repoImage.png)
+
 ## Folder Structure
 
 ```
     /.git           -> git repository
-    /images         -> contains the favicon.ico
+    /images         -> contains the favicon.ico and the repo image
     /styles
         style.css       -> contains all the css for full screen sizes
         minStyle.css    -> contains all the css for smaller screen sizes
