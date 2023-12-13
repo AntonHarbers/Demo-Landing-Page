@@ -2,7 +2,7 @@
 
 A generic landing page created with html and css for the odin project.
 
-[Live Link](https://antonharbers.github.io/foundations-landing-page/)
+[Live Link](https://antonharbers.github.io/Demo-Landing-Page/)
 
 ## Folder Structure
 
